@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The best site ever</title>
+</head>
+<body>
+    <center><div class="box-1"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="link-1">Click me</a></div></center>
+    <div class="box-2"><a href="./index2.html" class="link-2"><b>If you don't want to click me, click here</b></a></div>
+</body>
+</html>
+<style>
+    .box-1{
+        width: 500px;
+        height: auto;
+        background-color: rgba(244, 255, 91, 0.261);
+        border-radius: 200px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-bottom: 0px;
+        transition: 0.4s;
+        background-image: linear-gradient();
+    }
+
+    .link-1{
+        font-size: 80px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+
+    body{
+        background-image: linear-gradient(to left, red, blue);
+        background-size: 300%;
+        animation: bg-animation 10s infinite alternate;
+    }
+
+    @keyframes bg-animation {
+        0% {background-position: left;}
+        100% {background-position: right;}
+    }
+
+    .box-1:hover{
+        padding-bottom: 20px;
+        background-color: rgba(0, 0, 0, 0.173);
+        font-size: 100px;
+        }
+
+    .box-2{
+        width: 200px;
+        height: auto;
+        background-color: rgba(244, 255, 91, 0.261);
+        border-radius: 200px;
+        margin: 0;
+        position: absolute;
+        top: 80%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        animation-name: box-2-animation;
+        animation-duration: 0.5s;
+        padding-bottom: 0px;
+        transition: 0.4s;
+        background-image: linear-gradient();
+    }
+
+    .link-2{
+        font-size: 10px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+    .box-2:hover{
+        padding-bottom: 3px;
+        background-color: rgba(0, 0, 0, 0.173);
+        font-size: 30px;
+        }
+</style>
